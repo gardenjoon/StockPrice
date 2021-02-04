@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name":"StockPrice",
+      "script":"node_modules/.bin/ts-node",
+      "args":"./src/stockprice.ts",
+      "watch":true
+    }
+  ]
+}
